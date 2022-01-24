@@ -3,6 +3,7 @@ body {
 }
 h1 {
     background-color: chartreuse;
+    font-size: 60px;
 }
 p {
     color: white;
@@ -11,4 +12,19 @@ p {
     text-transform: uppercase;
     color: beige;
     font-size: 2.6em;
+    border: 1px solid white;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin: 100px;
+    background-color: darkblue;
+    text-align: center;
+}
+.dave{
+    width: 100px;
+    line-height: 1.4em;
+    font-weight: bold;
+}
+#superfancy{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4em;
 }
