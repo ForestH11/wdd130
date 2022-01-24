@@ -1,0 +1,14 @@
+body {
+    background-color: purple;
+}
+h1 {
+    background-color: chartreuse;
+}
+p {
+    color: white;
+}
+.fancy{
+    text-transform: uppercase;
+    color: beige;
+    font-size: 2.6em;
+}
