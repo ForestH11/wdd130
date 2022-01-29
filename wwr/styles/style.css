@@ -1,4 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #19647E   ;
+  --secondary-color: #42D9C8 ;
+  --accent1-color: #FDCA40;
+  --accent2-color: #EBE9E9;
+/* https://coolors.co/19647e-42d9c8-fdca40-EBE9E9*/
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Bebas Neue";
+  --paragraph-font: Montserrat, Helvetica, sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  /*--headline-color-on-white: var(--primary-color);  /* headlines on a white background */ 
+  /*--headline-color-on-color: var(--accent2-color); /* headlines on a colored background */ 
+  /*--paragraph-color-on-white: var(--primary-color); /* paragraph text on a white background */ 
+  /*--paragraph-color-on-color: var(--accent2-color); /* paragraph text on a colored background */ 
+  /*--paragraph-background-color: var(--primary-color);
+  --nav-link-color: var(--accent1-color);
+  --nav-background-color: var(--primary-color);
+  --nav-hover-link-color: var(--accent2-color);
+  --nav-hover-background-color: var(--secondary-color);*/
+}
+
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
+}
+body{
+    background-color: var(--accent2-color);
+}
+header{
+    background-color: var(--primary-color);
+}
+nav a{
+    text-align: center;
+    color: var(--accent1-color);
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: var(--secondary-color);
+    color: black;
+}
+#hero-msg h1{
+    text-align: center;
+}
+#hero-msg h4{
+    text-align: center;
+}
+.button-box{
+    text-align: center;
+}
+main section{
+    text-align: center;
+}
+#background{
+    height: 725px;
+    background-color: var(--primary-color);
+}
+.book{
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    text-decoration: none;
+}
+.join{
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    text-decoration: none;
+}
+.book:hover{
+    background-color: var(--secondary-color);
+    color: black;
+}
+.join:hover{
+    background-color: var(--secondary-color);
+    color: black;
+}
+.msg{
+    background-color: var(--accent1-color);
+}
+footer{
+    background-color: var(--primary-color);
+}
+.msg h2{
+    color: var(--primary-color);
+}
+.msg p{
+    color: var(--primary-color);
+}
+.home-title{
+    color: var(--primary-color);
+}
+h4{
+    color:var(--primary-color);
+}
+footer h3{
+    color: var(--accent2-color);
+}
+footer a{
+    color: var(--accent2-color);
+    text-decoration: none;
+}
+footer a:hover{
+    color:var(--accent1-color);
+}
+.logo{
+    width: 80px;
+}
+.icon{
+    width:80px;
+}
+#hero-img{
+    width: 100%;
 }
