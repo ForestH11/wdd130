@@ -114,3 +114,6 @@ footer a:hover{
 #hero-img{
     width: 100%;
 }
+footer h3:hover{
+    text-decoration: underline;
+}
