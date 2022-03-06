@@ -216,7 +216,24 @@ footer .social img{
     opacity: .6;
     transform: scale(1.1)
 }
-
+.faq{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.faq-text{
+    grid-column: 1;
+    padding-left: 45px;
+    padding-right: 20px;
+    background-color: var(--accent1-color);
+    line-height: 145%;
+}
+.faq-img{
+    grid-column: 2;
+}
+.faq-img img{
+    width: 100%;
+    border: 5px solid var(--secondary-color)
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
