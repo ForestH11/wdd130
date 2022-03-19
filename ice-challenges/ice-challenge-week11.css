@@ -37,7 +37,7 @@ button:hover{
 }
 
 img.avatar{
-    width: 40%;
+    width: 20%;
     border-radius: 50%;
 }
 
@@ -107,7 +107,7 @@ span.psw{
     to {-webkit-transform: scale(1)}
 }
 
-@-keyframes animatezoom{
+@keyframes animatezoom{
     from{transform: scale(0)}
     to{transform: scale(1)}
 }
