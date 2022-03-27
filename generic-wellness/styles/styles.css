@@ -43,7 +43,7 @@ nav a:hover{
 #content{
     margin-left: 55px;
 }
-#intro-message{
+.message-right{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 60px;
@@ -56,12 +56,12 @@ p{
     margin: auto;
 }
 
-#intro-message img, #follow-message img{
+.message-right img, .message-left img{
     width: 100%;
     margin-top: 50px;
     border: 10px solid var(--accent3-color)
 }
-#follow-message{
+.message-left{
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 60px;
