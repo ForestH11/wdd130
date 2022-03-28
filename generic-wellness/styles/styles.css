@@ -1,9 +1,10 @@
 :root {
     /* https://coolors.co/091540-a2faa3-ff5e5b-524632-8f7e4f */
     /* change the values below to your colors from your palette */
+    /*https://coolors.co/091540-80a4ed-bcd3f2-524632-8f7e4f is my new palette*/
     --primary-color: #091540   ;
-    --secondary-color: #A2FAA3 ;
-    --accent1-color: #FF5E5B;
+    --secondary-color: #80A4ED ;
+    --accent1-color: #BCD3F2;
     --accent2-color: #524632;
     --accent3-color: #8F7E4F;
 }
@@ -42,6 +43,7 @@ nav a:hover{
 }
 #content{
     margin-left: 55px;
+    margin-right: 55px;
 }
 .message-right{
     display: grid;
@@ -59,7 +61,8 @@ p{
 .message-right img, .message-left img{
     width: 100%;
     margin-top: 50px;
-    border: 10px solid var(--accent3-color)
+    border: 10px solid var(--accent3-color);
+    box-sizing: border-box;
 }
 .message-left{
     display:grid;
@@ -72,14 +75,14 @@ footer{
     padding: 25px 50px;
     margin-top: 200px;
     display: Flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 footer h3{
-    color: var(--accent2-color);
+    color: var(--secondary-color);
 }
 footer a{
-    color: var(--accent2-color);
+    color: var(--secondary-color);
     text-decoration: none;
 }
 footer a:hover{
