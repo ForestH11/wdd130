@@ -20,37 +20,43 @@
             <a href="site-plan.html">Site Plan</a>
         </nav>
     </header>
-    <div>
-        <p>Want to meet us? We are open Monday through Friday, 10 to 8. We'd love to see you, and walk-ins are welcome! Been in before? You can request an appointment online! Just click on the “Request Appointment” below, input your contact information, and we'll respond within 24 hours through your medium of choice, be it text, phone call, or email!</p>
-        <h3>Request Appointment</h3>
-        <form action="/my-handling-form-page" method="post">
-            <ul>
-             <li>
-               <label for="name">Name:</label>
-               <input type="text" id="name" name="user_name">
-             </li>
-             <li>
-               <label for="mail">E-mail:</label>
-               <input type="email" id="mail" name="user_email">
-             </li>
-             <li>
-               <label for="msg">Message:</label>
-               <textarea id="msg" name="user_message"></textarea>
-             </li>
-             <li class="button">
-                <button type="submit">Send your message</button>
-              </li>
-            </ul>
-           </form>
+    <div id="content">
+        <div class="message-left">
+            <p>Want to meet us? We are open Monday through Friday, 10 to 8. We'd love to see you, and walk-ins are welcome! Been in before? You can request an appointment online! Just input your contact information when you want to have an appointment and how you want to be contacted, click send message, and we'll respond within 24 hours through your medium of choice, be it text, phone call, or email!</p>
+            <div>
+                <h3 style="text-align:center;">Request Appointment</h3>
+                <form action="/my-handling-form-page" method="post">
+                    <ul>
+                    <li>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name">
+                    </li>
+                    <li>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_email">
+                    </li>
+                    <label for="phone">Phone #:</label>
+                    <input type="tel" id="phone" name="user_phone">
+                    </li>
+                    <li>
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                    <li class="button">
+                        <button type="submit">Send your message</button>
+                    </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+        <div class="message-right">
+            <img src="images/jelmer-assink-gzeTjGu3b_k-unsplash.jpg" alt="weight rack with barbell">
+            <img src="images/cropped-mariana-medvedeva-usfIE5Yc7PY-unsplash.jpg" alt="healthy foods">
+        </div>
+        <div class="closing-message">
+            <p>What services do we offer? We have onsite diet and nutrition experts, as well as personal trainers that can show you exercises to do on our equipment, or if you prefer to work out without equipment, they can show you exercises to do using just your own body weight and enough space to lay down and stand up. Our diet and nutrition experts will work with you to form a meal plan that meets your needs. If you're looking for something more budget friendly, alternatives to your favorite foods, or something you can make in a hurry, each of our food experts will be more than happy to work with you.</p>
+        </div>
     </div>
-    <div>
-        <img src="images/jelmer-assink-gzeTjGu3b_k-unsplash.jpg" alt="weigh rack with barbell">
-        <img src="images/mariana-medvedeva-usfIE5Yc7PY-unsplash.jpg" alt="healthy foods">
-    </div>
-    <div>
-        <p>What services do we offer? We have onsite diet and nutrition experts, as well as personal trainers that can show you exercises to do on our equipment, or if you prefer to work out without equipment, they can show you exercises to do using just your own body weight and enough space to lay down and stand up. Our diet and nutrition experts will work with you to form a meal plan that meets your needs. If you're looking for something more budget friendly, alternatives to your favorite foods, or something you can make in a hurry, each of our food experts will be more than happy to work with you.</p>
-    </div>
-    
     <footer>
         <h3>Generic Wellness &copy; 2022 - Benjamin Jenson</h3>
         <h3><a href='services.html'>Contact Us</a></h3>
